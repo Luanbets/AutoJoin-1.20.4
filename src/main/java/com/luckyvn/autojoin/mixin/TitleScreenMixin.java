@@ -30,6 +30,6 @@ public abstract class TitleScreenMixin {
 
         ServerInfo serverInfo = new ServerInfo("LuckyVN", host, ServerInfo.ServerType.OTHER);
 
-        ConnectScreen.connect(((TitleScreen) (Object) this), client, address, serverInfo, false, null);
+        ConnectScreen.connect(((TitleScreen) (Object) this), client, address, serverInfo, false);
     }
 }
